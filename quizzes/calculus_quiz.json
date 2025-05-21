@@ -1,0 +1,67 @@
+{
+    "course_title": "Calculus",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is a derivative?",
+            "options": [
+                "The rate of change of a function at a specific point",
+                "The area under a curve",
+                "The sum of a series",
+                "The product of two functions"
+            ],
+            "correct_answer": 0,
+            "explanation": "A derivative represents the rate of change of a function at a specific point, showing how the function's output changes with respect to its input."
+        },
+        {
+            "id": 2,
+            "question": "What is the power rule for derivatives?",
+            "options": [
+                "d/dx(x^n) = nx^(n-1)",
+                "d/dx(x^n) = nx^n",
+                "d/dx(x^n) = x^(n-1)",
+                "d/dx(x^n) = n^x"
+            ],
+            "correct_answer": 0,
+            "explanation": "The power rule states that the derivative of x^n is nx^(n-1), where n is any real number."
+        },
+        {
+            "id": 3,
+            "question": "What is an integral?",
+            "options": [
+                "The area under a curve",
+                "The slope of a tangent line",
+                "The limit of a sequence",
+                "The derivative of a function"
+            ],
+            "correct_answer": 0,
+            "explanation": "An integral represents the area under a curve between two points, and is the reverse operation of differentiation."
+        },
+        {
+            "id": 4,
+            "question": "What is the chain rule used for?",
+            "options": [
+                "Finding the derivative of composite functions",
+                "Finding the area between curves",
+                "Solving differential equations",
+                "Finding limits of sequences"
+            ],
+            "correct_answer": 0,
+            "explanation": "The chain rule is used to find the derivative of composite functions, where one function is nested inside another."
+        },
+        {
+            "id": 5,
+            "question": "What is a critical point?",
+            "options": [
+                "A point where the derivative is zero or undefined",
+                "The highest point on a curve",
+                "The point where a function crosses the x-axis",
+                "The point where a function crosses the y-axis"
+            ],
+            "correct_answer": 0,
+            "explanation": "A critical point is where the derivative of a function is either zero or undefined, often indicating potential maxima, minima, or points of inflection."
+        }
+    ]
+} 

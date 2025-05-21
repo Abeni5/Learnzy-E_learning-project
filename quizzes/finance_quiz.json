@@ -1,0 +1,67 @@
+{
+    "course_title": "Finance",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is compound interest?",
+            "options": [
+                "Interest earned on both principal and accumulated interest",
+                "Interest earned only on the principal amount",
+                "A fixed interest rate",
+                "A type of loan"
+            ],
+            "correct_answer": 0,
+            "explanation": "Compound interest is interest earned on both the initial principal and the accumulated interest from previous periods."
+        },
+        {
+            "id": 2,
+            "question": "What is the time value of money?",
+            "options": [
+                "The concept that money available now is worth more than the same amount in the future",
+                "The interest rate on a loan",
+                "The total amount of money in circulation",
+                "The value of a currency in different countries"
+            ],
+            "correct_answer": 0,
+            "explanation": "The time value of money is the concept that money available now is worth more than the same amount in the future due to its potential earning capacity."
+        },
+        {
+            "id": 3,
+            "question": "What is diversification?",
+            "options": [
+                "Spreading investments across different assets to reduce risk",
+                "Investing all money in one asset",
+                "Selling all investments",
+                "Borrowing money to invest"
+            ],
+            "correct_answer": 0,
+            "explanation": "Diversification is an investment strategy that spreads investments across different assets to reduce overall risk."
+        },
+        {
+            "id": 4,
+            "question": "What is a stock?",
+            "options": [
+                "A share of ownership in a company",
+                "A type of bond",
+                "A savings account",
+                "A type of insurance"
+            ],
+            "correct_answer": 0,
+            "explanation": "A stock represents a share of ownership in a company, giving the holder a claim on part of the company's assets and earnings."
+        },
+        {
+            "id": 5,
+            "question": "What is a bond?",
+            "options": [
+                "A debt security where an investor loans money to an entity",
+                "A type of stock",
+                "A savings account",
+                "A type of insurance policy"
+            ],
+            "correct_answer": 0,
+            "explanation": "A bond is a debt security where an investor loans money to an entity (government or corporation) that borrows the funds for a defined period at a fixed interest rate."
+        }
+    ]
+} 

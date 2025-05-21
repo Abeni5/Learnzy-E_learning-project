@@ -1,0 +1,67 @@
+{
+    "course_title": "Graphic Design",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the color wheel?",
+            "options": [
+                "A circular arrangement of colors showing their relationships",
+                "A type of design software",
+                "A printing technique",
+                "A type of font"
+            ],
+            "correct_answer": 0,
+            "explanation": "The color wheel is a circular arrangement of colors showing their relationships, used to create color schemes and understand color theory."
+        },
+        {
+            "id": 2,
+            "question": "What is typography?",
+            "options": [
+                "The art and technique of arranging type",
+                "A type of image",
+                "A color scheme",
+                "A layout style"
+            ],
+            "correct_answer": 0,
+            "explanation": "Typography is the art and technique of arranging type to make written language legible, readable, and appealing."
+        },
+        {
+            "id": 3,
+            "question": "What is the rule of thirds?",
+            "options": [
+                "A composition guideline that divides an image into nine equal parts",
+                "A color theory concept",
+                "A typography rule",
+                "A printing technique"
+            ],
+            "correct_answer": 0,
+            "explanation": "The rule of thirds is a composition guideline that divides an image into nine equal parts, helping to create balanced and visually appealing designs."
+        },
+        {
+            "id": 4,
+            "question": "What is a vector graphic?",
+            "options": [
+                "An image created using mathematical formulas",
+                "A type of photograph",
+                "A color scheme",
+                "A font style"
+            ],
+            "correct_answer": 0,
+            "explanation": "A vector graphic is an image created using mathematical formulas, allowing it to be scaled without losing quality."
+        },
+        {
+            "id": 5,
+            "question": "What is white space?",
+            "options": [
+                "The empty space between design elements",
+                "A type of color",
+                "A font style",
+                "A printing technique"
+            ],
+            "correct_answer": 0,
+            "explanation": "White space is the empty space between design elements, used to create balance, hierarchy, and improve readability."
+        }
+    ]
+} 

@@ -1,0 +1,67 @@
+{
+    "course_title": "Web Development",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "High Tech Modern Language",
+                "Hyper Transfer Markup Language",
+                "Hyper Text Modern Language"
+            ],
+            "correct_answer": 0,
+            "explanation": "HTML stands for Hyper Text Markup Language, which is the standard markup language for creating web pages."
+        },
+        {
+            "id": 2,
+            "question": "Which CSS property is used to change the text color?",
+            "options": [
+                "text-color",
+                "font-color",
+                "color",
+                "text-style"
+            ],
+            "correct_answer": 2,
+            "explanation": "The 'color' property is used to set the text color in CSS."
+        },
+        {
+            "id": 3,
+            "question": "What is the correct way to include JavaScript in an HTML file?",
+            "options": [
+                "<script src='script.js'></script>",
+                "<javascript src='script.js'></javascript>",
+                "<js src='script.js'></js>",
+                "<scripting src='script.js'></scripting>"
+            ],
+            "correct_answer": 0,
+            "explanation": "The <script> tag is used to include JavaScript in an HTML file."
+        },
+        {
+            "id": 4,
+            "question": "Which HTML element is used to create a hyperlink?",
+            "options": [
+                "<link>",
+                "<a>",
+                "<href>",
+                "<url>"
+            ],
+            "correct_answer": 1,
+            "explanation": "The <a> tag is used to create hyperlinks in HTML."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of CSS?",
+            "options": [
+                "To create the structure of a webpage",
+                "To add interactivity to a webpage",
+                "To style and layout web pages",
+                "To store data"
+            ],
+            "correct_answer": 2,
+            "explanation": "CSS (Cascading Style Sheets) is used to style and layout web pages."
+        }
+    ]
+} 

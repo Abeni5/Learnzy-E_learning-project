@@ -1,0 +1,67 @@
+{
+    "course_title": "Motion Graphics",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is keyframing?",
+            "options": [
+                "Setting specific points in time to define the start and end of an animation",
+                "A type of camera movement",
+                "A color grading technique",
+                "A sound editing method"
+            ],
+            "correct_answer": 0,
+            "explanation": "Keyframing is the process of setting specific points in time to define the start and end of an animation, with the software interpolating the frames in between."
+        },
+        {
+            "id": 2,
+            "question": "What is easing?",
+            "options": [
+                "The acceleration and deceleration of an animation",
+                "A type of transition",
+                "A color effect",
+                "A sound effect"
+            ],
+            "correct_answer": 0,
+            "explanation": "Easing is the acceleration and deceleration of an animation, making movements look more natural and less mechanical."
+        },
+        {
+            "id": 3,
+            "question": "What is a motion path?",
+            "options": [
+                "A defined route that an object follows during animation",
+                "A type of transition",
+                "A color gradient",
+                "A sound wave"
+            ],
+            "correct_answer": 0,
+            "explanation": "A motion path is a defined route that an object follows during animation, controlling its movement through space."
+        },
+        {
+            "id": 4,
+            "question": "What is frame rate?",
+            "options": [
+                "The number of frames displayed per second in an animation",
+                "The size of a video file",
+                "The duration of an animation",
+                "The quality of a video"
+            ],
+            "correct_answer": 0,
+            "explanation": "Frame rate is the number of frames displayed per second in an animation, affecting the smoothness of motion."
+        },
+        {
+            "id": 5,
+            "question": "What is a mask?",
+            "options": [
+                "A shape that hides or reveals parts of a layer",
+                "A type of transition",
+                "A color effect",
+                "A sound effect"
+            ],
+            "correct_answer": 0,
+            "explanation": "A mask is a shape that hides or reveals parts of a layer, allowing for complex animations and transitions."
+        }
+    ]
+} 

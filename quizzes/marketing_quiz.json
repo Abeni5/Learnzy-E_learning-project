@@ -1,0 +1,67 @@
+{
+    "course_title": "Marketing",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What are the 4 P's of Marketing?",
+            "options": [
+                "Product, Price, Place, Promotion",
+                "Product, Price, People, Process",
+                "Price, Place, People, Promotion",
+                "Product, Place, People, Process"
+            ],
+            "correct_answer": 0,
+            "explanation": "The 4 P's of Marketing are Product, Price, Place, and Promotion. These are the key elements in a marketing mix."
+        },
+        {
+            "id": 2,
+            "question": "What is a target market?",
+            "options": [
+                "A specific group of consumers at which a product or service is aimed",
+                "A physical location where products are sold",
+                "A type of marketing campaign",
+                "A pricing strategy"
+            ],
+            "correct_answer": 0,
+            "explanation": "A target market is a specific group of consumers at which a product or service is aimed, based on factors like demographics, interests, and needs."
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of a SWOT analysis?",
+            "options": [
+                "To analyze a company's Strengths, Weaknesses, Opportunities, and Threats",
+                "To determine product pricing",
+                "To create marketing campaigns",
+                "To measure sales performance"
+            ],
+            "correct_answer": 0,
+            "explanation": "SWOT analysis is a strategic planning tool used to identify and analyze a company's Strengths, Weaknesses, Opportunities, and Threats."
+        },
+        {
+            "id": 4,
+            "question": "What is digital marketing?",
+            "options": [
+                "Marketing through traditional media only",
+                "Marketing through digital channels and technologies",
+                "Marketing through physical stores only",
+                "Marketing through print media only"
+            ],
+            "correct_answer": 1,
+            "explanation": "Digital marketing is the use of digital channels and technologies to promote products and services to consumers."
+        },
+        {
+            "id": 5,
+            "question": "What is brand positioning?",
+            "options": [
+                "The price of a product",
+                "The physical location of a store",
+                "How a brand is perceived in the minds of consumers",
+                "The number of products a company sells"
+            ],
+            "correct_answer": 2,
+            "explanation": "Brand positioning is how a brand is perceived in the minds of consumers relative to competing brands."
+        }
+    ]
+} 

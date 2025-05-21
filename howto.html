@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>How Learnzy Works</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #3498db;
+      margin-bottom: 40px;
+    }
+    .step {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .step i {
+      font-size: 1.6rem;
+      color: #3498db;
+      margin-right: 10px;
+    }
+    .step h2 {
+      color: #222;
+      margin-bottom: 10px;
+    }
+    a.back-home {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #fff;
+      background: #3498db;
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+    a.back-home:hover {
+      background: #2980b9;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.95rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1><i class="fas fa-question-circle"></i> How Learnzy Works</h1>
+
+    <div class="step">
+      <h2><i class="fas fa-user-plus"></i> 1. Register or Login</h2>
+      <p>Create a free account to get started. If you already have one, just log in using your email or username.</p>
+    </div>
+
+    <div class="step">
+      <h2><i class="fas fa-book-open"></i> 2. Explore Courses</h2>
+      <p>Browse a variety of departments like Programming, Math, Business, and Design. Click “View Courses” to see more options.</p>
+    </div>
+
+    <div class="step">
+      <h2><i class="fas fa-check-circle"></i> 3. Select & Pay</h2>
+      <p>Click “Select” on the course you want. When ready, click “Pay Now” to confirm. Each course comes with a price label.</p>
+    </div>
+
+    <div class="step">
+      <h2><i class="fas fa-user-circle"></i> 4. Track Your Learning</h2>
+      <p>Use the “Profile” dropdown to view your info and selected courses. It updates automatically when you enroll.</p>
+    </div>
+
+    <div class="step">
+      <h2><i class="fas fa-envelope"></i> 5. Need Help?</h2>
+      <p>Use the “Help” form to contact our team or send feedback. We’re always here to support you!</p>
+    </div>
+
+    <a class="back-home" href="student_dashboard.php"><i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+  </div>
+
+  <footer>
+    &copy; <?= date('Y') ?> Learnzy — All rights reserved.
+  </footer>
+
+</body>
+</html>

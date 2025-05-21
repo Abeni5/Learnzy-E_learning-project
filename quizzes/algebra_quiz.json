@@ -1,0 +1,67 @@
+{
+    "course_title": "Algebra",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is a variable in algebra?",
+            "options": [
+                "A fixed number",
+                "A letter representing an unknown value",
+                "A mathematical operation",
+                "A type of equation"
+            ],
+            "correct_answer": 1,
+            "explanation": "In algebra, a variable is a letter (like x or y) that represents an unknown value that can change."
+        },
+        {
+            "id": 2,
+            "question": "What is the solution to the equation: 2x + 5 = 13?",
+            "options": [
+                "x = 3",
+                "x = 4",
+                "x = 5",
+                "x = 6"
+            ],
+            "correct_answer": 1,
+            "explanation": "2x + 5 = 13\n2x = 13 - 5\n2x = 8\nx = 4"
+        },
+        {
+            "id": 3,
+            "question": "What is the quadratic formula?",
+            "options": [
+                "x = -b ± √(b² - 4ac) / 2a",
+                "x = b ± √(b² - 4ac) / 2a",
+                "x = -b ± √(b² + 4ac) / 2a",
+                "x = b ± √(b² + 4ac) / 2a"
+            ],
+            "correct_answer": 0,
+            "explanation": "The quadratic formula is x = -b ± √(b² - 4ac) / 2a, used to solve quadratic equations in the form ax² + bx + c = 0."
+        },
+        {
+            "id": 4,
+            "question": "What is the slope-intercept form of a linear equation?",
+            "options": [
+                "y = mx + b",
+                "y = mx - b",
+                "y = -mx + b",
+                "y = -mx - b"
+            ],
+            "correct_answer": 0,
+            "explanation": "The slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept."
+        },
+        {
+            "id": 5,
+            "question": "What is the distributive property?",
+            "options": [
+                "a(b + c) = ab + ac",
+                "a(b + c) = ab - ac",
+                "a(b + c) = a + b + c",
+                "a(b + c) = abc"
+            ],
+            "correct_answer": 0,
+            "explanation": "The distributive property states that a(b + c) = ab + ac, allowing us to multiply a sum by multiplying each addend separately."
+        }
+    ]
+} 

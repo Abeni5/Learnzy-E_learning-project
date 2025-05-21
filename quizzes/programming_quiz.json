@@ -1,0 +1,67 @@
+{
+    "course_title": "Programming",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is a variable in programming?",
+            "options": [
+                "A container for storing data values",
+                "A type of loop",
+                "A function name",
+                "A programming language"
+            ],
+            "correct_answer": 0,
+            "explanation": "A variable is a container for storing data values. It can hold different types of data like numbers, text, or boolean values."
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a loop structure?",
+            "options": [
+                "if-else",
+                "switch-case",
+                "for",
+                "try-catch"
+            ],
+            "correct_answer": 2,
+            "explanation": "The 'for' loop is a control structure that allows you to execute a block of code multiple times."
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of a function?",
+            "options": [
+                "To store data",
+                "To create variables",
+                "To perform a specific task",
+                "To display output"
+            ],
+            "correct_answer": 2,
+            "explanation": "A function is a block of code that performs a specific task and can be reused throughout the program."
+        },
+        {
+            "id": 4,
+            "question": "Which data type is used for whole numbers?",
+            "options": [
+                "String",
+                "Float",
+                "Integer",
+                "Boolean"
+            ],
+            "correct_answer": 2,
+            "explanation": "Integer is the data type used for whole numbers without decimal points."
+        },
+        {
+            "id": 5,
+            "question": "What is an array?",
+            "options": [
+                "A single variable",
+                "A collection of elements",
+                "A function",
+                "A loop"
+            ],
+            "correct_answer": 1,
+            "explanation": "An array is a data structure that stores a collection of elements, typically of the same type."
+        }
+    ]
+} 

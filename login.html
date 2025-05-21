@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('image/login.png') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .login-box {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      width: 350px;
+      position: relative;
+      z-index: 2;
+      backdrop-filter: blur(10px);
+    }
+    .login-box h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+    .user-type {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      gap: 10px;
+    }
+    .user-type button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      background: #f0f0f0;
+      cursor: pointer;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    .user-type button.active {
+      background: #1a237e;
+      color: white;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    input:focus {
+      outline: none;
+      border-color: #1a237e;
+      box-shadow: 0 0 0 2px rgba(26, 35, 126, 0.1);
+    }
+    button.login-btn {
+      width: 100%;
+      padding: 12px;
+      background: #1a237e;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    button.login-btn:hover {
+      background: #283593;
+      transform: translateY(-2px);
+    }
+    .links {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .links a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #1a237e;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      color: #283593;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <div class="user-type">
+      <button id="studentBtn" class="active" onclick="setUserType('student')">Student</button>
+      <button id="adminBtn" onclick="setUserType('admin')">Admin</button>
+    </div>
+
+    <form action="login.php" method="POST">
+      <input type="hidden" name="role" id="role" value="student">
+      <input type="text" name="username" placeholder="Email or Username">
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <div class="links">
+      <a href="forgot_password.html ">Forgot Password?</a>
+      <a href="register.html">Don't have an account? Register</a>
+    </div>
+  </div>
+
+  <script>
+    function setUserType(role) {
+      document.getElementById("role").value = role;
+      document.getElementById("studentBtn").classList.remove("active");
+      document.getElementById("adminBtn").classList.remove("active");
+      if (role === "student") {
+        document.getElementById("studentBtn").classList.add("active");
+      } else {
+        document.getElementById("adminBtn").classList.add("active");
+      }
+    }
+  </script>
+</body>
+</html>

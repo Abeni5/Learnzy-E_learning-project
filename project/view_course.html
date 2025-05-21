@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><?= htmlspecialchars($course) ?> | Learnzy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #3498db;
+      margin-bottom: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    button {
+      padding: 12px 25px;
+      margin: 20px 0;
+      background: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .quiz-section {
+      display: none;
+      margin-top: 20px;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question p {
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+    #quiz-result {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1><?= htmlspecialchars($course) ?></h1>
+
+  <!-- PDF Viewer -->
+  <?php if (file_exists($pdfFile)): ?>
+    <h2>📘 Lecture Material</h2>
+    <iframe src="<?= $pdfFile ?>" title="Lecture PDF"></iframe>
+  <?php else: ?>
+    <p style="color: red;">❌ No lecture PDF found for this course.</p>
+  <?php endif; ?>
+
+  <!-- Quiz Section -->
+  <button onclick="startQuiz()">🧠 Take Quiz</button>
+  <div id="quiz-timer" style="font-weight:bold; color:red; margin-bottom: 10px;"></div>
+
+  <div class="quiz-section" id="quizSection">
+    <h2>🧪 Quiz: <?= htmlspecialchars($course) ?></h2>
+    <form id="quizForm"></form>
+    <button type="submit" id="submitQuiz">✅ Check Answers</button>
+    <div id="quiz-result"></div>
+  </div>
+</div>
+
+<script>
+const course = "<?= addslashes($course) ?>";
+</script>
+<script src="js/quizzes.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+    "course_title": "UI/UX Design",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the difference between UI and UX?",
+            "options": [
+                "UI is about visual design, UX is about user experience",
+                "UI is about user experience, UX is about visual design",
+                "They are exactly the same thing",
+                "UI is about coding, UX is about design"
+            ],
+            "correct_answer": 0,
+            "explanation": "UI (User Interface) focuses on the visual design and layout, while UX (User Experience) focuses on the overall experience and usability."
+        },
+        {
+            "id": 2,
+            "question": "What is a wireframe?",
+            "options": [
+                "A final design mockup",
+                "A basic visual guide that represents the skeletal framework of a website",
+                "A type of animation",
+                "A color scheme"
+            ],
+            "correct_answer": 1,
+            "explanation": "A wireframe is a basic visual guide that represents the skeletal framework of a website, showing the layout and structure without design elements."
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of user testing?",
+            "options": [
+                "To make the design look pretty",
+                "To evaluate a product by testing it with real users",
+                "To check if the code works",
+                "To measure website speed"
+            ],
+            "correct_answer": 1,
+            "explanation": "User testing helps evaluate a product by testing it with real users to identify usability issues and gather feedback."
+        },
+        {
+            "id": 4,
+            "question": "What is a user persona?",
+            "options": [
+                "A real user of the product",
+                "A fictional character representing a target user",
+                "A type of design element",
+                "A marketing strategy"
+            ],
+            "correct_answer": 1,
+            "explanation": "A user persona is a fictional character representing a target user, based on research and data about real users."
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of a design system?",
+            "options": [
+                "To make designs look consistent",
+                "To store user data",
+                "To track website analytics",
+                "To manage server resources"
+            ],
+            "correct_answer": 0,
+            "explanation": "A design system is a collection of reusable components and guidelines that help maintain consistency across a product's design."
+        }
+    ]
+} 

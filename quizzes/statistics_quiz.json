@@ -1,0 +1,67 @@
+{
+    "course_title": "Statistics",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the mean of a dataset?",
+            "options": [
+                "The average of all values",
+                "The middle value when data is ordered",
+                "The most frequent value",
+                "The difference between highest and lowest values"
+            ],
+            "correct_answer": 0,
+            "explanation": "The mean is the arithmetic average of all values in a dataset, calculated by summing all values and dividing by the number of values."
+        },
+        {
+            "id": 2,
+            "question": "What is standard deviation?",
+            "options": [
+                "A measure of how spread out the values are from the mean",
+                "The difference between the highest and lowest values",
+                "The middle value of a dataset",
+                "The most common value in a dataset"
+            ],
+            "correct_answer": 0,
+            "explanation": "Standard deviation measures how spread out the values are from the mean, indicating the amount of variation in the dataset."
+        },
+        {
+            "id": 3,
+            "question": "What is a normal distribution?",
+            "options": [
+                "A bell-shaped distribution where data is symmetric around the mean",
+                "A distribution where all values are equal",
+                "A distribution with two peaks",
+                "A distribution with no pattern"
+            ],
+            "correct_answer": 0,
+            "explanation": "A normal distribution is a bell-shaped curve where data is symmetric around the mean, with most values falling near the mean and fewer values at the extremes."
+        },
+        {
+            "id": 4,
+            "question": "What is correlation?",
+            "options": [
+                "A measure of the relationship between two variables",
+                "The difference between two means",
+                "The sum of squared differences",
+                "The ratio of two standard deviations"
+            ],
+            "correct_answer": 0,
+            "explanation": "Correlation measures the strength and direction of the relationship between two variables, ranging from -1 to +1."
+        },
+        {
+            "id": 5,
+            "question": "What is a p-value?",
+            "options": [
+                "The probability of obtaining results as extreme as the observed results",
+                "The percentage of data points in a sample",
+                "The mean of a dataset",
+                "The standard deviation of a dataset"
+            ],
+            "correct_answer": 0,
+            "explanation": "A p-value is the probability of obtaining results as extreme as the observed results, assuming the null hypothesis is true. It helps determine statistical significance."
+        }
+    ]
+} 

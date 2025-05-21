@@ -1,0 +1,67 @@
+{
+    "course_title": "Entrepreneurship",
+    "total_questions": 5,
+    "passing_score": 60,
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is a business model?",
+            "options": [
+                "A plan for how a business will create, deliver, and capture value",
+                "A type of business structure",
+                "A marketing strategy",
+                "A financial statement"
+            ],
+            "correct_answer": 0,
+            "explanation": "A business model describes how a business creates, delivers, and captures value, including revenue streams, cost structure, and value proposition."
+        },
+        {
+            "id": 2,
+            "question": "What is a minimum viable product (MVP)?",
+            "options": [
+                "A product with enough features to satisfy early customers",
+                "The final version of a product",
+                "A prototype that's not ready for testing",
+                "A product with all possible features"
+            ],
+            "correct_answer": 0,
+            "explanation": "An MVP is a product with enough features to satisfy early customers and provide feedback for future development."
+        },
+        {
+            "id": 3,
+            "question": "What is market validation?",
+            "options": [
+                "The process of testing a business idea with potential customers",
+                "The process of registering a business",
+                "The process of hiring employees",
+                "The process of filing taxes"
+            ],
+            "correct_answer": 0,
+            "explanation": "Market validation is the process of testing a business idea with potential customers to determine if there's a market need for the product or service."
+        },
+        {
+            "id": 4,
+            "question": "What is a pitch deck?",
+            "options": [
+                "A presentation used to pitch a business idea to investors",
+                "A type of business card",
+                "A marketing brochure",
+                "A financial report"
+            ],
+            "correct_answer": 0,
+            "explanation": "A pitch deck is a presentation used to pitch a business idea to potential investors, typically including market opportunity, business model, and financial projections."
+        },
+        {
+            "id": 5,
+            "question": "What is bootstrapping?",
+            "options": [
+                "Starting a business with minimal external funding",
+                "A type of business structure",
+                "A marketing strategy",
+                "A way to hire employees"
+            ],
+            "correct_answer": 0,
+            "explanation": "Bootstrapping is starting a business with minimal external funding, using personal savings and revenue to grow the business."
+        }
+    ]
+} 
